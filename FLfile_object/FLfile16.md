@@ -30,7 +30,7 @@ if (str) {
     alert( fileURL + " contains in Base32: " + str);
 }
 
-The following example reads the ActionScript code from a class file and stores it in the code variable:
+The following example reads the JPEG image and stores it in the code variable:
 
 var classFileURI = "file:///C|/MyApplication/Dog.jpeg"; 
 var code = FLfile.readBinary(classFileURI);
